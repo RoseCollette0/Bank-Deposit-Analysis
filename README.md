@@ -36,7 +36,7 @@ The dataset contains 41,177 customer records and includes features such as:
 - Dashboard Development: Completed  
 - Insights Summary: Included  
 
-# Data Dictionary
+## Data Dictionary
 AGE: The customer’s age.
 
 JOB: The customer’s type of job.
