@@ -1,5 +1,5 @@
 # Term Deposit Subscription Prediction – Banking Marketing Analysis
-# Overview
+## Overview
 This project analyzes a real-world banking dataset to understand the factors that influence whether a customer subscribes to a term deposit following a marketing campaign. The goal is to uncover actionable insights using Excel to guide marketing strategies, improve targeting, and increase campaign efficiency.
 
 ## Objectives
