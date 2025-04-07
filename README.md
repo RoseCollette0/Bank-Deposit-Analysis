@@ -6,7 +6,6 @@ This project analyzes a real-world banking dataset to understand the factors tha
 - Predict the likelihood of a customer subscribing to a term deposit
 - Identify the most influential factors affecting customer decisions (e.g., loan status, call duration, previous campaign outcomes)
 - Determine the optimal number of contact attempts and the importance of call duration
-- Segment customers based on past engagement to tailor future strategies
 - Reduce operational costs by minimizing outreach to low-potential customers
 
 ## Tools and Techniques
