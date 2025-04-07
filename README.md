@@ -1,7 +1,41 @@
 # Term Deposit Subscription Prediction – Banking Marketing Analysis
 # Overview
-Banks frequently conduct marketing campaigns to encourage customers to subscribe to term deposits. However, the effectiveness of these campaigns is influenced by multiple factors, including customer demographics, economic conditions, past interactions and campaign-specific metrics. Understanding what drives customer decisions can help banks optimize their strategies, improve engagement, and increase subscription rates.
-This analysis aims to develop insights based on a banking dataset to determine the likelihood of a customer subscribing to a term deposit (y: Yes/No)
+This project analyzes a real-world banking dataset to understand the factors that influence whether a customer subscribes to a term deposit following a marketing campaign. The goal is to uncover actionable insights using Excel to guide marketing strategies, improve targeting, and increase campaign efficiency.
+
+## Objectives
+- Predict the likelihood of a customer subscribing to a term deposit
+- Identify the most influential factors affecting customer decisions (e.g., loan status, call duration, previous campaign outcomes)
+- Determine the optimal number of contact attempts and the importance of call duration
+- Segment customers based on past engagement to tailor future strategies
+- Reduce operational costs by minimizing outreach to low-potential customers
+
+## Tools and Techniques
+- Microsoft Excel  
+- Excel Pivot Tables  
+- Data Cleaning and Preparation  
+- Exploratory Data Analysis (EDA)  
+- Dashboard Design and Visualization  
+
+## Business Impact
+- Improved marketing efficiency through targeted customer segmentation
+- Reduced campaign costs by focusing on high-potential leads
+- Increased subscription rates by identifying key conversion drivers
+- Data-driven insights to support campaign planning and execution
+
+## Dataset
+The dataset contains 41,177 customer records and includes features such as:
+- Demographic details (age, job, marital status, education)
+- Financial information (balance, housing loan, personal loan, default status)
+- Interaction history (number of contacts, duration of last contact, previous outcomes)
+- Macroeconomic indicators (employment variation rate, euribor3m, consumer price index, consumer confidence index)
+- Time-related features (month, day of the week)
+
+## Project Status
+- Data Cleaning and Preparation: Completed  
+- Exploratory Data Analysis: Completed  
+- Dashboard Development: Completed  
+- Insights Summary: Included  
+
 # Data Dictionary
 AGE: The customer’s age.
 
