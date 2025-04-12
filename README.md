@@ -149,3 +149,7 @@ This transformation allowed for a clearer analysis of the distribution of 'yes' 
 
 Conclusion:
 After completing the cleaning and wrangling steps, the dataset is now ready for detailed analysis. The data is structured, standardized, and enriched with additional variables that will allow for in-depth insights into trends and patterns. 
+
+##  DASHBOARD
+
+[CAMPAIGN STRATEGY OPTIMIZATION DASHBOARD](
