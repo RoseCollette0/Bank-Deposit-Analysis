@@ -79,7 +79,7 @@ NR.EMPLOYED: stands for the number of employees in the economy, which is a macro
 Y: Refers to whether a customer accepted or rejected a bank's offer.
 
 
-##  DATA CLEANING AND WRANGLING 
+##  DATA CLEANING AND WRANGLING PROCESSES
 
 DATA CLEANING STEPS
 
