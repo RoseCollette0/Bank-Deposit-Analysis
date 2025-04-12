@@ -81,7 +81,7 @@ Y: Refers to whether a customer accepted or rejected a bank's offer.
 
 ##  DATA CLEANING AND WRANGLING PROCESSES
 
-DATA CLEANING STEPS
+## DATA CLEANING 
 
 1. Dataset Loading and Null Value Check:
 The dataset was loaded into Microsoft Excel, and a quick check for null values was done using the filter function. The =COUNTBLANK(range) formula was also used to double-check. No missing values were found in the dataset.
