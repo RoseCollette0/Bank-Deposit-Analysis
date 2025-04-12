@@ -79,8 +79,9 @@ NR.EMPLOYED: stands for the number of employees in the economy, which is a macro
 Y: Refers to whether a customer accepted or rejected a bank's offer.
 
 
-#DATA CLEANING AND WRANGLING 
-##DATA CLEANING STEPS
+##  DATA CLEANING AND WRANGLING 
+
+DATA CLEANING STEPS
 
 1. Dataset Loading and Null Value Check:
 The dataset was loaded into Microsoft Excel, and a quick check for null values was done using the filter function. The =COUNTBLANK(range) formula was also used to double-check. No missing values were found in the dataset.
@@ -106,7 +107,7 @@ The dataset was checked for duplicate records, and duplicate rows found, were de
 In conclusion of the cleaning process, a final check was made on the column headers to ensure the names were consistent with the data given. Everything was aligned correctly, so there was no confusion when analyzing the data.
 
 
-##DATA WRANGLING STEPS
+DATA WRANGLING STEPS
 
 During the analysis process, several transformations and categorizations were applied to facilitate deeper insights and comparisons. Below are the key wrangling operations:
 
