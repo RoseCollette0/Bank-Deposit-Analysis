@@ -77,3 +77,74 @@ EURIBOR3M: is a 3-month Euro Interbank Offered Rate (Euribor). This is the inter
 NR.EMPLOYED: stands for the number of employees in the economy, which is a macroeconomic indicator reflecting overall employment levels. 
 
 Y: Refers to whether a customer accepted or rejected a bank's offer.
+
+
+#DATA CLEANING AND WRANGLING 
+##DATA CLEANING STEPS
+
+1. Dataset Loading and Null Value Check:
+The dataset was loaded into Microsoft Excel, and a quick check for null values was done using the filter function. The =COUNTBLANK(range) formula was also used to double-check. No missing values were found in the dataset.
+2. Text Normalization for Readability:
+The `Find and Replace` function was used to convert the first letters of each word in the dataset columns into sentence case. This step was done to improve readability and ensure consistency in presentation across the dataset.
+
+3. Spelling and Uniformity Correction:
+The Find and Replace function was used to fix any spelling errors and make sure similar words were used consistently across the columns. This was done to maintain consistency in terminology throughout the dataset.
+
+4. Whitespace Check:
+The ‘Filter’ function was used to check the dataset, and it confirmed that there were no extra spaces. Therefore, no further trimming was needed.
+
+5. Data Type Consistency:
+   A thorough check was done to make sure the data types were consistent across the dataset. Numeric values were placed in the correct fields, and categorical data was assigned properly.
+
+6. Outlier Detection:
+   - The dataset was checked for outliers or unusual rows that could indicate data entry errors or anomalies using the ‘filter’ function. After reviewing the data, no significant outliers were detected.
+
+7. Redundant or Duplicate Data:
+The dataset was checked for duplicate records, and duplicate rows found, were deleted to maintain data integrity and prevent repetition.
+
+8. Column Header Consistency:
+In conclusion of the cleaning process, a final check was made on the column headers to ensure the names were consistent with the data given. Everything was aligned correctly, so there was no confusion when analyzing the data.
+
+
+##DATA WRANGLING STEPS
+
+During the analysis process, several transformations and categorizations were applied to facilitate deeper insights and comparisons. Below are the key wrangling operations:
+
+1.	Quarterly Column Creation from Months:
+A new column labeled `Quarter` was derived from the `Month` column. 
+This column was created by mapping each month to its respective quarter (Q1, Q2, Q3, or Q4), based on the month number:
+•	Q1: January, February, March
+•	Q2: April, May, June
+•	Q3: July, August, September
+•	Q4: October, November, December
+  - This categorization allows for the grouping of data by quarters, facilitating time-based analyses.
+
+2.	CPI Grading from CPI Column:
+The `CPI` column was used to derive a new categorical column called `CPI_Grade`. 
+Based on the CPI values, they were assigned to specific categories (e.g., 'Low', 'Medium', 'High'). 
+This grading enabled a better understanding of inflation trends.
+
+3.	CCI Grading from CCI Column:
+  A new column called `CCI_Grade` was created by categorizing the CCI values into ranges and since the `CCI` values collected were all in negatives, they were graded in these ranges;
+•	-20s: Values in the range of -20 to -29
+•	-30s: Values in the range of -30 to -39
+•	-40s: Values in the range of -40 to -49
+•	-50s: Values in the range of -50 to -59
+  - This grading system helped to classify customer confidence levels and study its relationship with deposits.
+
+4.	Euribor3M Rating from Euribor3M Column:
+The `Euribor3M` values were categorized into three levels based on their values. The ratings were:
+•	Low: Euribor3M values < 1%
+•	Medium: 1% ≤ Euribor3M < 2%
+•	High: Euribor3M values ≥ 2%
+No Euribor3m rates in the dataset was < or = 1, hence no low rates are recorded.
+This transformation helped analyze the relationship between interest rates and subscription deposit volumes.
+
+5.	Responses from the Y Column:
+The `Y` column, which originally contained 'yes' or 'no' responses, was split into two separate columns:
+•	Yes Column: Counted the number of 'yes' responses.
+•	No Column: Counted the number of 'no' responses.
+This transformation allowed for a clearer analysis of the distribution of 'yes' and 'no' responses across the dataset.
+
+Conclusion:
+After completing the cleaning and wrangling steps, the dataset is now ready for detailed analysis. The data is structured, standardized, and enriched with additional variables that will allow for in-depth insights into trends and patterns. 
