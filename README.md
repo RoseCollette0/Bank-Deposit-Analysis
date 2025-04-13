@@ -186,7 +186,7 @@ In summary, by targeting the right customers, at the right time and under the ri
 
 
 
-##  Insight & Recommendation Summary – Term Deposit Subscription Analysis
+##  FACTOR-BY-FACTOR ANALYSIS & RECOMMENDATIONS
 
 | **Factor Analyzed**                          | **Key Insight**                                                                                      | **Recommendation**                                                                                      |
 |---------------------------------------------|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
