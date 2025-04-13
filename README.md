@@ -183,3 +183,24 @@ The bank should;
 5.	Consider using financial education programs and incentive-based campaigns to improve outreach to low-performing but potentially convertible segments (e.g., younger customers, blue-collar workers).
 
 In summary, by targeting the right customers, at the right time and under the right economic conditions, the bank can significantly improve campaign effectiveness, optimize spending, and drive stronger long-term subscription outcomes.
+
+
+
+##  Insight & Recommendation Summary – Term Deposit Subscription Analysis
+
+| **Factor Analyzed**                          | **Key Insight**                                                                                      | **Recommendation**                                                                                      |
+|---------------------------------------------|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| **Contact Attempts per Campaign**           | 80.67% of successful subscriptions occur within 1–3 calls; returns drop significantly after 6 calls. | Limit contact attempts to 1–3; set a cutoff around 6 to reduce costs and avoid customer fatigue.         |
+| **Age**                                     | Customers aged 61–82 have the highest subscription rate (43–49%).                                     | Prioritize targeting older adults; explore tailored strategies for younger age groups (17–27).          |
+| **Job**                                     | Students (31%) and retirees (25%) convert best; blue-collar and service workers have the lowest rates. | Focus on high-performing occupations; offer tailored incentives to low-performing job segments.         |
+| **Marital Status**                          | Singles (14.01%) subscribe more than married or divorced individuals.                                 | Design marketing strategies that appeal to singles; test family-oriented offers for married/divorced.   |
+| **Education**                               | University-educated and unknown education groups show highest subscription rates.                     | Prioritize degree holders; improve accessibility for lower-educated groups via simplified communication. |
+| **Previous Campaign Outcome**               | Customers with past positive responses have a 65.11% success rate.                                    | Re-target previously successful contacts; deprioritize those with past negative responses.              |
+| **Call Duration**                           | 2–5 minute calls (120–300 seconds) yield highest engagement.                                          | Encourage optimal call lengths with personalized offers to maintain engagement.                         |
+| **Default History**                         | Non-defaulters are far more likely to subscribe (4196 Yes vs. 3 for confirmed defaulters).            | Focus on customers without defaults; use risk-based strategies for others.                              |
+| **Day of Contact**                          | Thursday, Tuesday, and Wednesday have the highest conversion rates.                                   | Prioritize outreach on high-performing days; rethink Monday strategy.                                   |
+| **Housing Loan Status**                     | Customers without housing loans are more likely to subscribe.                                         | Target non-loan holders; offer installment plans to customers with housing loans.                       |
+| **Personal Loan Status**                    | Subscription rate is higher among those without personal loans.                                       | Focus on non-borrowers; offer specific financial plans to personal loan holders.                        |
+| **Consumer Confidence Index (CCI)**         | Subscriptions increase during periods of low confidence.                                               | Launch campaigns during economic pessimism; offer premium deals when confidence is high.                |
+| **Consumer Price Index (CPI)**              | Subscriptions increase when CPI is low (i.e., low inflation periods).                                 | Emphasize term deposit benefits during low inflation periods; adjust messaging during high CPI.         |
+| **EURIBOR 3M**                              | Subscriptions peak at moderate EURIBOR levels, suggesting trust in stable economies.                  | Promote term deposits during economic stability; reassure customers during volatile rate changes.       |
