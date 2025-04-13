@@ -8,6 +8,14 @@ This project analyzes a real-world banking dataset to understand the factors tha
 - Determine the optimal number of contact attempts and the importance of call duration
 - Reduce operational costs by minimizing outreach to low-potential customers
 
+##  DASHBOARD
+
+[CAMPAIGN STRATEGY OPTIMIZATION DASHBOARD](![Campaign Perf  Dashboard](https://github.com/user-attachments/assets/19f0d439-66fc-48aa-8285-7e6a7c3c13e2)(![Economic Effects Dashboard](https://github.com/user-attachments/assets/be0a571f-0411-495f-9f7f-51e8638263aa)(![Customer Demographics Dashboard](https://github.com/user-attachments/assets/222f7476-5b71-4981-a08c-27183f1a3aa5)
+
+
+
+
+
 ## Tools and Techniques
 - Microsoft Excel  
 - Excel Pivot Tables  
@@ -149,7 +157,3 @@ This transformation allowed for a clearer analysis of the distribution of 'yes' 
 
 Conclusion:
 After completing the cleaning and wrangling steps, the dataset is now ready for detailed analysis. The data is structured, standardized, and enriched with additional variables that will allow for in-depth insights into trends and patterns. 
-
-##  DASHBOARD
-
-[CAMPAIGN STRATEGY OPTIMIZATION DASHBOARD](
